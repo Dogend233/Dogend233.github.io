@@ -25,7 +25,7 @@
 	<!-- AnimateCss -->
 	<link rel="stylesheet" href="animate/animate.min.css">
 	<!-- CSS -->
-	<link rel="stylesheet" href="mchub/mchub.css">
+	<link rel="stylesheet" href="mchub/mchub.css?v=1">
   </head>
   <body>
     <!-- MainFrame -->
@@ -46,7 +46,7 @@
 		  </h1>
           <h2><span class="rotating">免费的二级域名, 支持国际化IDN, 支持SRV转发</span></h2>
           <div class="actions">
-            <a href="#dogend" class="btn-get">立刻申请 xx.mchub.club</a>
+            <a href="#guide" class="btn-get">立刻申请 xx.mchub.club</a>
           </div>
         </div>
       </div>
@@ -55,13 +55,108 @@
 	<header id="header">
       <div class="container">
         <div id="logo" class="pull-left">
-          <a href="#main-frame"><img src="img/mchub-321.png" alt="" title="" /></img></a>
+          <a href="#main-frame"><img src="img/mchub-321.png" alt="mchub" title="mchub" /></img></a>
         </div>
       </div>
     </header>
-	<section id="main-frame"></section>
+	<!-- List -->
+	<section id="list">
+	  <div class="list-container">
+	  </div>
+	</section>
+	<!-- Guide -->
 	<hr>
+	<section id="guide">
+	  <div class="container">
+	    <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">xx.mchub.club</h3>
+            <div class="section-title-divider"></div>
+            <p class="section-description">如何得到一个免费的xx.mchub.club域名</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-battery-0"></i></div>
+            <h4 class="guide-title"><a href="">第①步</a></h4>
+            <p class="guide-description">以任何您想的到的方式联系到我<br>
+			QQ : 1147723332<br>
+			Wechat : God_Doge<br>
+			E-mail : dogend@xn--o5raa.com</br> / yanshengwys@qq.com
+			</p>
+          </div>
+		  <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-battery-1"></i></div>
+            <h4 class="guide-title"><a href="">第②步</a></h4>
+            <p class="guide-description">将您想要的“xx”告知于我并告知用途<br>
+			默认域名支持字符为: <br>
+			<code>0123456789-abcdefghijklmnopqrstuvwxyz</code><br>
+			可以使用IDN(国际化域名)和SRV<br>
+			域名服务器在西部数码<br>
+			（PS: 本站放在github.io）
+			</p>
+          </div>
+		  <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-battery-2"></i></div>
+            <h4 class="guide-title"><a href="">第③步</a></h4>
+            <p class="guide-description">如果您想使用IDN, 可以使用下方的在线转换工具查看Punycode码, 理论支持: 中文, 日语, 韩文, 西班牙语, 匈牙利文, 拉脱维亚语, 立陶宛文, 波兰文, 俄罗斯语, 丹麦语, 瑞典语, 芬兰文, 冰岛文, 挪威语, 葡萄牙语</p>
+          </div>
+		  <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-battery-3"></i></div>
+            <h4 class="guide-title"><a href="">第④步</a></h4>
+            <p class="guide-description">如果您想使用SRV<br>
+			用于mc进入服务器的地址<br>
+			且有多个服务器ip<br>
+			可以申请并尝试一组域名<br>
+			xx.mchub.club<br>
+			A.xx.mchub.club<br>
+			B.xx.mchub.club<br>
+			C.xx.mchub.club
+			</p>
+          </div>
+		  <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-battery-4"></i></div>
+            <h4 class="guide-title"><a href="">第⑤步</a></h4>
+            <p class="guide-description">①将A记录解析的ip地址发给我<br>
+			--等待解析<br>
+			②将CNAME记录解析的地址发给我<br>
+			--等待解析<br>
+			③将SRV地址及端口发给我<br>
+			--等待解析<br>
+			</p>
+          </div>
+		  <div class="col-md-4 guideitem">
+            <div class="guide-icon"><i class="fa fa-check-square-o"></i></div>
+            <h4 class="guide-title"><a href="">第⑥步</a></h4>
+            <p class="guide-description">解析完成<br>
+			您可以正常使用<br>
+			我会将此子域名放在本页面展示<br>
+			且不定期对域名进行检查<br>
+			禁止进行违法犯罪活动
+			</p>
+          </div>
+        </div>
+		<div class="row" style="margin-top:5px;">
+		  <div class="col-md-6" style="margin-bottom:5px;">
+		    <span style="color: white;"> <i class="fa fa-refresh fa-spin" style="color: cyan;"> </i> Punycode在线转换工具</span>
+		  </div>
+		  <div class="col-md-6" style="margin-bottom:5px;">
+		    <input  type="button"   class="btn btn-success"   value="编码" id="transformer">
+			<input  type="button"   class="btn btn-primary"   value="解码" id="antitransformer">	
+            <input  type="button"   class="btn btn-warning"   value="复制" onclick="Copyexcontent()">
+			<input  type="button"   class="btn btn-danger"    value="清空" id="clearallcontent">
+		  </div>
+		  <div class="col-md-6" style="margin-bottom:5px;">
+		    <textarea class="form-control" rows="7" id="content" placeholder="请在这里输入您需要批量编码的中文域名或者需要解码的Punycode,一排一行"></textarea>
+		  </div>
+		  <div class="col-md-6">
+		    <textarea class="form-control" rows="7" id="excontent" placeholder="结果区域"></textarea>
+		  </div>
+		</div>
+	  </div>
+	</section>
 	<!-- Copyright -->
+	<hr>
     <footer id="footer">
       <div class="container">
         <div class="row">
@@ -86,5 +181,8 @@
 	<script src="easing/easing.min.js"></script>
 	<!-- JS -->
 	<script src="mchub/mchub.js"></script>
+	<!-- Punycode -->
+	<script src="punycode/punycode.js"></script>
+	<script src="punycode/transform.js"></script>
   </body>
 </html>

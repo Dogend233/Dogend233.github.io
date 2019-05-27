@@ -130,6 +130,72 @@
   background: rgba(0, 0, 0, 0.85);
 }
 
+/* List */
+
+#list {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: black top center fixed;
+  background-size: cover;
+}
+
+#list .list-container {
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Guide */
+
+#guide {
+  background: transparent;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#guide .guide-item {
+  margin-bottom: 20px;
+}
+
+#guide .guide-icon {
+  float: left;
+  padding: 16px;
+  transition: 0.5s;
+}
+
+#guide .guide-icon i {
+  color: lightgreen;
+  font-size: 24px;
+}
+
+#guide .guide-item:hover .guide-icon {
+  background: #fff;
+}
+
+#guide .guide-item:hover .guide-icon i {
+  color: #03C4EB;
+}
+
+#guide .guide-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#guide .guide-title a {
+  color: white;
+}
+
+#guide .guide-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
 /* Footer */
 
 #footer {
@@ -209,6 +275,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+.section-title {
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title-divider {
+  width: 50px;
+  height: 3px;
+  background: #03C4EB;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
 }
 
 hr{
