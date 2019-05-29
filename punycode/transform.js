@@ -58,7 +58,7 @@ $("#antitransformer").bind("click",
         document.getElementById('excontent').value = jieguos;
 		daochu = jieguos;
         return false
-    });
+});
 	
 function Copyexcontent() {
         // 获取Dom节点

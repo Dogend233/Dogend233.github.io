@@ -185,10 +185,15 @@
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
+  color: white;
 }
 
-#guide .guide-title a {
-  color: white;
+#guide .guide-description a {
+  color: #e83e8c;
+}
+
+#guide .guide-description a:hover {
+  color: cyan;
 }
 
 #guide .guide-description {
