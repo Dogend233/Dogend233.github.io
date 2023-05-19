@@ -1,3 +1,0 @@
-2.2.0
-2020/1/29
-支持VV2.5.6(1月26日晚23:07新发布的)#不再兼容2.4以下的VexView#附件表中物品字段默认类型改为MEDIUMTEXT(旧版本请手动更改)#其他请到官网查看完整更新日志# http://qwq.xn--o5raa.com/plugins/mailbox/update.php#v2.2.0
